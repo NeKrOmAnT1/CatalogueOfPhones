@@ -1,0 +1,30 @@
+﻿<Window x:Class="CatalogueOfPhones.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CatalogueOfPhones"
+        mc:Ignorable="d"
+        Title="CatalogueOfPhone" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel>
+                <GroupBox Background="MediumPurple" Header="Рейтинг смартфонов 2021 года">
+                    <StackPanel>
+                        <RadioButton x:Name="rb_1" Margin="15px" IsChecked="True" Content="Samsung Galaxy S21 5G 8/128GB"/>
+                        <RadioButton x:Name="rb_2" Margin="15px" IsChecked="True" Content="Apple iPhone 12 mini 64GB"/>
+                        <RadioButton x:Name="rb_3" Margin="15px" IsChecked="True" Content="Samsung Galaxy S9 Plus 64GB"/>
+                        <RadioButton x:Name="rb_4" Margin="15px" IsChecked="True" Content="OnePlus 8T 8/128GB"/>
+                        <RadioButton x:Name="rb_5" Margin="15px" IsChecked="True" Content="Apple iPhone 11 128GB"/>
+                        <RadioButton x:Name="rb_6" Margin="15px" IsChecked="True" Content="Google Pixel 5 8/128GB"/>
+                        <RadioButton x:Name="rb_7" Margin="15px" IsChecked="True" Content="Poco X3 NFC 6/128GB"/>
+                        <RadioButton x:Name="rb_8" Margin="15px" IsChecked="True" Content="Xiaomi Redmi Note 8 Pro 6/128GB"/>
+                        <RadioButton x:Name="rb_9" Margin="15px" IsChecked="True" Content="HONOR 20 6/128GB"/>
+                        <RadioButton x:Name="rb_10" Margin="15px" IsChecked="True" Content="realme 7 Pro 8/128GB"/>
+                        <Button x:Name="btn_info" Click="btn_info_Click" Content="Узнать!" HorizontalAlignment="Center" Width="100px" Height="50px" Background="LightBlue"/>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
